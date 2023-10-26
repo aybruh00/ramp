@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.75"
 rodio = "0.17.3"
+serde = "1.0.190"
