@@ -1,0 +1,3 @@
+[submodule "src/audiotags"]
+	path = src/audiotags
+	url = git@github.com:aybruh00/audiotags.git

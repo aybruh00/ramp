@@ -52,6 +52,9 @@ pub mod player {
 
         pub fn wait(&self) {
             self.rodio_sink.sleep_until_end();
+            println!("1");
+            self.rodio_sink.sleep_until_end();
+
         }
     }
 }

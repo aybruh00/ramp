@@ -7,5 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
-rodio = "0.17.3"
+rodio = {version="0.17.3", features = ["symphonia-all"]}
+symphonia = {version = "0.5.2"}
 serde = "1.0.190"
+audiotags = {path = "./src/audiotags", version = "0.5.0"}
